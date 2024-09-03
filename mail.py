@@ -17,6 +17,8 @@ if(len(email)>=6): # check the length of the mail
                         d=1
                 if((k==1)or(j==1)or(d==1)):
                     print("Your email is invalid due to space in your mail or maybe be you can enter any of the special character rather than the dot, underscore or at the rate sign!!")
+                else:
+                    print("You enter the Right Mail!")
             else:
                 print("The position of the dot is in wrong position!")
         else:
